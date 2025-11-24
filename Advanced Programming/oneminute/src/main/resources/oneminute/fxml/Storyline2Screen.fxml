@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="540.0" prefWidth="960.0" style="-fx-background-color: #2f2f2f;" styleClass="pixelify-sans" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="oneminute.controllers.Storyline2ScreenController">
+    <children>
+      <Button fx:id="beginLabel" layoutX="327.0" layoutY="436.0" mnemonicParsing="false" onAction="#switchToShoppingScreen" prefHeight="40.0" prefWidth="346.0" style="-fx-background-color: transparent;" stylesheets="@../css/font.css" text="Let the countdown begin! &gt;" textFill="#ffef88">
+         <font>
+            <Font name="Pixelify Sans Regular" size="21.0" />
+         </font>
+         <styleClass>
+            <String fx:value="pixelify-sans" />
+            <String fx:value="start-label" />
+         </styleClass>
+      </Button>
+      <Label alignment="CENTER" layoutX="55.0" layoutY="98.0" prefHeight="298.0" prefWidth="850.0" stylesheets="@../css/font.css" text="In this frantic pandemic scramble, you’ve got just 60 seconds to grab all the essentials before lockdown hits! Once inside, ration supplies, make tough decisions, and keep your family sane as isolation takes its toll. &#10;&#10;Navigate these challenges wisely, and you might just survive until rescue or a vaccine arrives. Ready to race the clock and save your family?&#10;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="Pixelify Sans Regular" size="27.0" />
+         </font>
+         <styleClass>
+            <String fx:value="pixelify-sans" />
+            <String fx:value="storyline-2-label" />
+         </styleClass>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,1295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane id="AnchorPane" prefHeight="540.0" prefWidth="960.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="oneminute.controllers.JournalStatusController">
+   <children>
+      <ImageView fitHeight="540.0" fitWidth="960.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/backgrounds/bg_home.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="540.0" fitWidth="960.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/backgrounds/bg_status.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="59.0" fitWidth="52.0" layoutX="412.0" layoutY="151.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/characters/gwen_normal.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="59.0" fitWidth="52.0" layoutX="410.0" layoutY="272.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/characters/susan_normal.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="59.0" fitWidth="52.0" layoutX="412.0" layoutY="381.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/characters/robert_normal.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="closeJournalStatusButton" layoutX="875.0" layoutY="12.0" mnemonicParsing="false" onMouseClicked="#handleCloseJournalStatusButton" prefHeight="70.0" prefWidth="70.0" style="-fx-background-color: transparent;">
+         <graphic>
+            <ImageView fitHeight="61.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/buttons/journal_buttonClose.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button fx:id="journalStoryButton" layoutX="660.0" layoutY="141.0" mnemonicParsing="false" onMouseClicked="#handleJournalStoryButton" prefHeight="70.0" prefWidth="25.0" style="-fx-background-color: transparent;">
+         <graphic>
+            <ImageView fitHeight="66.0" fitWidth="66.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/buttons/journal_storyButton.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <VBox layoutX="484.0" layoutY="130.0" prefHeight="200.0" prefWidth="100.0">
+         <children>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="48.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/healthbar-bg.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="48.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/healthbar-bg.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-28.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="48.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/healthbar-bg.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-26.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="48.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/healthbar-bg.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-26.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="48.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/healthbar-bg.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-27.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="48.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/healthbar-bg.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-27.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="48.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/healthbar-bg.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-27.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="48.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/healthbar-bg.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-27.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="48.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../images/static/healthbar-bg.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-27.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="48.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../images/static/healthbar-bg.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-28.0" />
+                     </HBox.margin>
+                  </ImageView>
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="50.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/hungerbar-bg.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="50.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/hungerbar-bg.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-28.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="50.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/hungerbar-bg.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-26.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="50.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/hungerbar-bg.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-26.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="50.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/hungerbar-bg.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-27.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="50.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/hungerbar-bg.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-27.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="50.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/hungerbar-bg.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-27.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="50.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../images/static/hungerbar-bg.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-27.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="50.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../images/static/hungerbar-bg.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-27.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="50.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../images/static/hungerbar-bg.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-28.0" />
+                     </HBox.margin>
+                  </ImageView>
+               </children>
+               <VBox.margin>
+                  <Insets top="-80.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="50.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/thirstbar-bg.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="50.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/thirstbar-bg.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-28.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="50.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/thirstbar-bg.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-26.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="50.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/thirstbar-bg.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-26.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="50.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/thirstbar-bg.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-27.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="50.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/thirstbar-bg.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-27.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="50.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/thirstbar-bg.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-27.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="50.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../images/static/thirstbar-bg.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-27.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="50.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../images/static/thirstbar-bg.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-27.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="50.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../images/static/thirstbar-bg.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-28.0" />
+                     </HBox.margin>
+                  </ImageView>
+               </children>
+               <VBox.margin>
+                  <Insets top="-82.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="48.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/moralebar-bg.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="48.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/moralebar-bg.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-28.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="48.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/moralebar-bg.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-26.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="48.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/moralebar-bg.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-26.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="48.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/moralebar-bg.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-27.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="48.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/moralebar-bg.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-27.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="48.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/moralebar-bg.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-27.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="48.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../images/static/moralebar-bg.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-27.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="48.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../images/static/moralebar-bg.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-27.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="48.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../images/static/moralebar-bg.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-28.0" />
+                     </HBox.margin>
+                  </ImageView>
+               </children>
+               <VBox.margin>
+                  <Insets top="-81.0" />
+               </VBox.margin>
+            </HBox>
+         </children>
+      </VBox>
+      <VBox layoutX="473.0" layoutY="136.0" prefHeight="40.0" prefWidth="100.0">
+         <children>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/items-healthbar.png" />
+                     </image></ImageView>
+                  <ImageView fitHeight="110.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/statusbar.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-35.0" />
+                     </HBox.margin>
+                  </ImageView>
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/items-hungerbar.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="110.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/statusbar.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-35.0" />
+                     </HBox.margin>
+                  </ImageView>
+               </children>
+               <VBox.margin>
+                  <Insets top="-10.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/items-thirstbar.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="110.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/statusbar.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-35.0" />
+                     </HBox.margin>
+                  </ImageView>
+               </children>
+               <VBox.margin>
+                  <Insets top="-10.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/items-moralebar.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="110.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/statusbar.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-35.0" />
+                     </HBox.margin>
+                  </ImageView>
+               </children>
+               <VBox.margin>
+                  <Insets top="-10.0" />
+               </VBox.margin>
+            </HBox>
+         </children>
+      </VBox>
+      <VBox layoutX="484.0" layoutY="248.0" prefHeight="200.0" prefWidth="100.0">
+         <children>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="48.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/healthbar-bg.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="48.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/healthbar-bg.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-28.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="48.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/healthbar-bg.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-26.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="48.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/healthbar-bg.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-26.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="48.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/healthbar-bg.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-27.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="48.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/healthbar-bg.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-27.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="48.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/healthbar-bg.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-27.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="48.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/healthbar-bg.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-27.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="48.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../images/static/healthbar-bg.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-27.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="48.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../images/static/healthbar-bg.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-28.0" />
+                     </HBox.margin>
+                  </ImageView>
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="50.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/hungerbar-bg.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="50.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/hungerbar-bg.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-28.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="50.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/hungerbar-bg.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-26.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="50.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/hungerbar-bg.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-26.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="50.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/hungerbar-bg.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-27.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="50.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/hungerbar-bg.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-27.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="50.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/hungerbar-bg.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-27.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="50.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../images/static/hungerbar-bg.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-27.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="50.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../images/static/hungerbar-bg.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-27.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="50.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../images/static/hungerbar-bg.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-28.0" />
+                     </HBox.margin>
+                  </ImageView>
+               </children>
+               <VBox.margin>
+                  <Insets top="-80.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="50.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/thirstbar-bg.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="50.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/thirstbar-bg.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-28.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="50.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/thirstbar-bg.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-26.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="50.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/thirstbar-bg.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-26.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="50.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/thirstbar-bg.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-27.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="50.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/thirstbar-bg.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-27.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="50.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/thirstbar-bg.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-27.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="50.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../images/static/thirstbar-bg.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-27.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="50.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../images/static/thirstbar-bg.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-27.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="50.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../images/static/thirstbar-bg.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-28.0" />
+                     </HBox.margin>
+                  </ImageView>
+               </children>
+               <VBox.margin>
+                  <Insets top="-82.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="48.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/moralebar-bg.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="48.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/moralebar-bg.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-28.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="48.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/moralebar-bg.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-26.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="48.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/moralebar-bg.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-26.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="48.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/moralebar-bg.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-27.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="48.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/moralebar-bg.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-27.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="48.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/moralebar-bg.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-27.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="48.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../images/static/moralebar-bg.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-27.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="48.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../images/static/moralebar-bg.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-27.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="48.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../images/static/moralebar-bg.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-28.0" />
+                     </HBox.margin>
+                  </ImageView>
+               </children>
+               <VBox.margin>
+                  <Insets top="-81.0" />
+               </VBox.margin>
+            </HBox>
+         </children>
+      </VBox>
+      <VBox layoutX="473.0" layoutY="254.0" prefHeight="40.0" prefWidth="100.0">
+         <children>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/items-healthbar.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="110.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/statusbar.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-35.0" />
+                     </HBox.margin>
+                  </ImageView>
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/items-hungerbar.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="110.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/statusbar.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-35.0" />
+                     </HBox.margin>
+                  </ImageView>
+               </children>
+               <VBox.margin>
+                  <Insets top="-10.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/items-thirstbar.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="110.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/statusbar.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-35.0" />
+                     </HBox.margin>
+                  </ImageView>
+               </children>
+               <VBox.margin>
+                  <Insets top="-10.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/items-moralebar.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="110.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/statusbar.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-35.0" />
+                     </HBox.margin>
+                  </ImageView>
+               </children>
+               <VBox.margin>
+                  <Insets top="-10.0" />
+               </VBox.margin>
+            </HBox>
+         </children>
+      </VBox>
+      <HBox layoutX="484.0" layoutY="364.0" prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <ImageView fx:id="robert_health_1" fitHeight="48.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/static/healthbar-bg.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="robert_health_2" fitHeight="48.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/static/healthbar-bg.png" />
+               </image>
+               <HBox.margin>
+                  <Insets left="-28.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView fx:id="robert_health_3" fitHeight="48.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/static/healthbar-bg.png" />
+               </image>
+               <HBox.margin>
+                  <Insets left="-26.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView fx:id="robert_health_4" fitHeight="48.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/static/healthbar-bg.png" />
+               </image>
+               <HBox.margin>
+                  <Insets left="-26.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView fx:id="robert_health_5" fitHeight="48.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/static/healthbar-bg.png" />
+               </image>
+               <HBox.margin>
+                  <Insets left="-27.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView fx:id="robert_health_6" fitHeight="48.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/static/healthbar-bg.png" />
+               </image>
+               <HBox.margin>
+                  <Insets left="-27.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView fx:id="robert_health_7" fitHeight="48.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/static/healthbar-bg.png" />
+               </image>
+               <HBox.margin>
+                  <Insets left="-27.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView fx:id="robert_health_8" fitHeight="48.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/static/healthbar-bg.png" />
+               </image>
+               <HBox.margin>
+                  <Insets left="-27.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView fx:id="robert_health_9" fitHeight="48.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../images/static/healthbar-bg.png" />
+               </image>
+               <HBox.margin>
+                  <Insets left="-27.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView fx:id="robert_health_10" fitHeight="48.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../images/static/healthbar-bg.png" />
+               </image>
+               <HBox.margin>
+                  <Insets left="-28.0" />
+               </HBox.margin>
+            </ImageView>
+         </children>
+      </HBox>
+      <HBox layoutX="484.0" layoutY="384.0" prefHeight="100.0" prefWidth="99.0">
+         <children>
+            <ImageView fitHeight="50.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/static/hungerbar-bg.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="50.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/static/hungerbar-bg.png" />
+               </image>
+               <HBox.margin>
+                  <Insets left="-28.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView fitHeight="50.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/static/hungerbar-bg.png" />
+               </image>
+               <HBox.margin>
+                  <Insets left="-26.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView fitHeight="50.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/static/hungerbar-bg.png" />
+               </image>
+               <HBox.margin>
+                  <Insets left="-26.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView fitHeight="50.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/static/hungerbar-bg.png" />
+               </image>
+               <HBox.margin>
+                  <Insets left="-27.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView fitHeight="50.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/static/hungerbar-bg.png" />
+               </image>
+               <HBox.margin>
+                  <Insets left="-27.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView fitHeight="50.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/static/hungerbar-bg.png" />
+               </image>
+               <HBox.margin>
+                  <Insets left="-27.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView fitHeight="50.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../images/static/hungerbar-bg.png" />
+               </image>
+               <HBox.margin>
+                  <Insets left="-27.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView fitHeight="50.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../images/static/hungerbar-bg.png" />
+               </image>
+               <HBox.margin>
+                  <Insets left="-27.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView fitHeight="50.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../images/static/hungerbar-bg.png" />
+               </image>
+               <HBox.margin>
+                  <Insets left="-28.0" />
+               </HBox.margin>
+            </ImageView>
+         </children>
+      </HBox>
+      <HBox layoutX="484.0" layoutY="400.0" prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <ImageView fitHeight="50.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/static/thirstbar-bg.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="50.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/static/thirstbar-bg.png" />
+               </image>
+               <HBox.margin>
+                  <Insets left="-28.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView fitHeight="50.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/static/thirstbar-bg.png" />
+               </image>
+               <HBox.margin>
+                  <Insets left="-26.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView fitHeight="50.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/static/thirstbar-bg.png" />
+               </image>
+               <HBox.margin>
+                  <Insets left="-26.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView fitHeight="50.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/static/thirstbar-bg.png" />
+               </image>
+               <HBox.margin>
+                  <Insets left="-27.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView fitHeight="50.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/static/thirstbar-bg.png" />
+               </image>
+               <HBox.margin>
+                  <Insets left="-27.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView fitHeight="50.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/static/thirstbar-bg.png" />
+               </image>
+               <HBox.margin>
+                  <Insets left="-27.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView fitHeight="50.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../images/static/thirstbar-bg.png" />
+               </image>
+               <HBox.margin>
+                  <Insets left="-27.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView fitHeight="50.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../images/static/thirstbar-bg.png" />
+               </image>
+               <HBox.margin>
+                  <Insets left="-27.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView fitHeight="50.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../images/static/thirstbar-bg.png" />
+               </image>
+               <HBox.margin>
+                  <Insets left="-28.0" />
+               </HBox.margin>
+            </ImageView>
+         </children>
+      </HBox>
+      <HBox layoutX="484.0" layoutY="420.0" prefHeight="38.0" prefWidth="216.0">
+         <children>
+            <ImageView fitHeight="48.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/static/moralebar-bg.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="48.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/static/moralebar-bg.png" />
+               </image>
+               <HBox.margin>
+                  <Insets left="-28.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView fitHeight="48.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/static/moralebar-bg.png" />
+               </image>
+               <HBox.margin>
+                  <Insets left="-26.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView fitHeight="48.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/static/moralebar-bg.png" />
+               </image>
+               <HBox.margin>
+                  <Insets left="-26.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView fitHeight="48.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/static/moralebar-bg.png" />
+               </image>
+               <HBox.margin>
+                  <Insets left="-27.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView fitHeight="48.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/static/moralebar-bg.png" />
+               </image>
+               <HBox.margin>
+                  <Insets left="-27.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView fitHeight="48.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/static/moralebar-bg.png" />
+               </image>
+               <HBox.margin>
+                  <Insets left="-27.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView fitHeight="48.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../images/static/moralebar-bg.png" />
+               </image>
+               <HBox.margin>
+                  <Insets left="-27.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView fitHeight="48.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../images/static/moralebar-bg.png" />
+               </image>
+               <HBox.margin>
+                  <Insets left="-27.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView fitHeight="48.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../images/static/moralebar-bg.png" />
+               </image>
+               <HBox.margin>
+                  <Insets left="-28.0" />
+               </HBox.margin>
+            </ImageView>
+         </children>
+      </HBox>
+      <VBox layoutX="473.0" layoutY="370.0" prefHeight="40.0" prefWidth="100.0">
+         <children>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/items-healthbar.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="110.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/statusbar.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-35.0" />
+                     </HBox.margin>
+                  </ImageView>
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/items-hungerbar.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="110.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/statusbar.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-35.0" />
+                     </HBox.margin>
+                  </ImageView>
+               </children>
+               <VBox.margin>
+                  <Insets top="-10.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/items-thirstbar.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="110.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/statusbar.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-35.0" />
+                     </HBox.margin>
+                  </ImageView>
+               </children>
+               <VBox.margin>
+                  <Insets top="-10.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/items-moralebar.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="110.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/static/statusbar.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="-35.0" />
+                     </HBox.margin>
+                  </ImageView>
+               </children>
+               <VBox.margin>
+                  <Insets top="-10.0" />
+               </VBox.margin>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

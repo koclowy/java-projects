@@ -1,0 +1,62 @@
+@font-face {
+    font-family: "Pixelify Sans";
+    src: url("PixelifySans-Regular.ttf");
+}
+
+.pixelify-sans {
+    -fx-font-family: "Pixelify Sans";
+}
+
+/* Storyline Screen */
+.plot-label {
+    -fx-font-size: 27px; 
+}
+
+.continue-button {
+    -fx-font-size: 23px; 
+}
+
+/* Storyline 2 Screen */
+.start-label{
+    -fx-font-size: 21px;
+}
+
+.storyline-2-label{
+    -fx-font-size: 27px; 
+    -fx-line-height: 30px;
+}
+
+/* Shopping Screen */
+.itemName{
+    -fx-font-size: 23px;
+}
+
+.itemDescription{
+    -fx-font-size: 20px;
+}
+
+.timer-label{
+    -fx-font-size: 50px;
+}
+
+/* Day Counter Screen */
+.day-counter-label{
+    -fx-font-size: 70px;
+}
+
+/* Journal Story Screen */
+.journal-text-area {
+    -fx-background-color: #b7a993; /* Gold background color */
+    -fx-control-inner-background: #b7a993; /* Inner background color */
+    -fx-border-color: #b7a993; /* Dark Golden Rod border color */
+    -fx-border-width: 0px; /* Border width */
+    -fx-border-radius: 0px; /* Border radius */
+    -fx-background-radius: 5px; /* Background radius */
+    -fx-text-fill: #000000; /* Text color, black */
+    -fx-font-size: 14px; /* Font size */
+}
+
+/*Winning Story Screen*/
+.winning-story-text{
+    -fx-font-size: 27px;
+}

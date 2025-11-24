@@ -1,4 +1,4 @@
-# ⏱️ OneMinute – Survival Strategy Game (Advanced Programming Project)
+#  OneMinute – Survival Strategy Game (Advanced Programming Project)
 
 **OneMinute** is a JavaFX survival strategy game where players try to endure a pandemic lockdown for 30 days.  
 Every decision impacts the family’s **hunger**, **thirst**, **morale**, and **health**.  
@@ -100,4 +100,35 @@ Advanced Programming/oneminute/
 ├── src/oneminute/            # Full Java source code (JavaFX + OOP)
 │
 └── README.md                 # Project documentation
+```
+---
+🧠 What I Learned
 
+Through this project, I gained hands-on experience in:
+
+- JavaFX GUI development
+- Organizing code using MVC & OOP principles
+- File handling & encrypted data storage
+- Multi-screen navigation using FXML
+- Handling events, timelines, and animations
+- Pixel-art & digital illustration integration
+- Creating custom UI components (buttons, transitions, icons)
+- Managing game state and logic (resources, choices, survival events)
+- Designing intuitive UX with Figma and Scene Builder
+- Collaborative development & documentation
+- Debugging JavaFX applications and audio integration
+
+---
+
+🌱 Future Enhancements
+
+- Add settings menu (audio, graphics, controls, language)
+- Expand lockdown duration from 14 days → full 30 days
+- Add sound settings & volume controls
+- Add more random events and varied difficulty modes
+- Enhance visual polish and animations
+- Improve journal UI navigation
+- Add character movement or micro-animations
+- Expand storyline & endings
+
+---

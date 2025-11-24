@@ -10,7 +10,6 @@ A key highlight of this project:
 ---
 
 ## 🎯 Objectives  
-*(Extracted from section 1.1 & gameplay pages 8–12)* :contentReference[oaicite:3]{index=3}
 
 - Create an interactive survival game using JavaFX and OOP concepts  
 - Implement multi-screen navigation (Login → Storyline → Shopping → Cashier → Day Counter → Home → Journal → Win/Defeat)  

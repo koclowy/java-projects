@@ -1,4 +1,4 @@
-# 🌍 ClimateEducationApp – Java OOP Project
+# ClimateEducationApp – Java OOP Project
 
 **ClimateEducationApp** is an educational Java application designed to raise awareness about SDG 13, targeting global warming, greenhouse gases, pollution causes, and climate-related facts.  
 It provides an interactive experience through simple GUI pages that help users understand climate issues in an accessible way.

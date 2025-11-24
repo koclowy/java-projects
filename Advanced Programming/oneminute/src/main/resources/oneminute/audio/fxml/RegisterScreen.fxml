@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="540.0" prefWidth="960.0" stylesheets="@../css/font.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="oneminute.controllers.RegisterScreenController">
+   <children>
+      <ImageView fitHeight="540.0" fitWidth="960.0">
+         <image>
+            <Image url="@../images/backgrounds/bg_register.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <PasswordField fx:id="password" layoutX="384.0" layoutY="367.0" onAction="#register" prefHeight="37.0" prefWidth="220.0" style="-fx-background-color: #f6bb77; -fx-background-radius: 0; -fx-border-radius: 0;" />
+      <TextField fx:id="userId" layoutX="384.0" layoutY="284.0" onAction="#register" prefHeight="37.0" prefWidth="221.0" style="-fx-background-color: #f6bb77; -fx-background-radius: 0; -fx-border-radius: 0;">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font></TextField>
+      <HBox layoutX="574.0" layoutY="420.0" prefHeight="13.0" prefWidth="33.0">
+         <children>
+            <Label fx:id="loginLabel" layoutX="564.0" layoutY="420.0" onMouseClicked="#switchToLoginScreen" prefHeight="13.0" prefWidth="32.0" text="LOGIN" textFill="#f3f3f3">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="System Bold" size="9.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <HBox layoutX="421.0" layoutY="441.0" prefHeight="23.0" prefWidth="122.0">
+         <children>
+            <Button fx:id="registerButton" mnemonicParsing="false" onAction="#register" prefHeight="96.0" prefWidth="226.0" style="-fx-background-color: transparent;">
+               <graphic>
+                  <ImageView fitHeight="44.0" fitWidth="126.0">
+                     <image>
+                        <Image url="@../images/buttons/register_button.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+               </graphic>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

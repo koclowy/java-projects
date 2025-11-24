@@ -44,7 +44,6 @@ A key highlight of this project:
 ---
 
 ## 🖥 Gameplay Overview  
-*(Based on pages 1.1–1.3 and 2.0 gameplay mechanics)* :contentReference[oaicite:4]{index=4}
 
 ### 🧾 Login & User System
 - Login, Register, Reset Password  

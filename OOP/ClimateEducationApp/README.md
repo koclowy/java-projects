@@ -40,6 +40,8 @@ ClimateEducationApp/
 │
 └── README.md                   # Project documentation
 ```
+---
+
 ## 🧠 What I Learned
 
 Through this project, I learned:
@@ -49,6 +51,8 @@ Through this project, I learned:
 - Handling button events and user interactions
 - Improving code readability through comments and modular design
 - Basic debugging techniques in Apache NetBeans
+
+---
 
 ## 🌱 Future Enhancements
 
@@ -60,4 +64,4 @@ Planned improvements include:
 - Adding audio or images for better engagement
 - Improving navigation flow between pages
 
-
+---

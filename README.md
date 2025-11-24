@@ -20,7 +20,6 @@ All projects were created using **Java**, with development supported by **Apache
 ---
 
 ### 2. **OneMinute – Survival Strategy Game (Advanced Programming)**  
-*(Based on detailed project documentation)* :contentReference[oaicite:1]{index=1}  
 - **Language:** Java  
 - **Framework:** JavaFX + FXML  
 - **Tools:** Visual Studio Code, Apache NetBeans, Scene Builder, Figma, Procreate, Pixel Studio, Draw.io  

@@ -5,6 +5,7 @@
 <p align="center">
   <img src="https://skillicons.dev/icons?i=java,vscode,figma&theme=dark" />
 </p>
+
 ---
 
 <h1 align="center">⊹₊⟡⋆ Java Projects ⊹₊⟡⋆</h1>

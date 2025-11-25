@@ -3,33 +3,11 @@
 </p>
 
 <p align="center">
-  <!-- Java -->
-  <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white" />
-  
-  <!-- Apache NetBeans -->
-  <img src="https://img.shields.io/badge/Apache%20NetBeans-1B6AC6?style=for-the-badge&logo=apache-netbeans-ide&logoColor=white" />
-  
-  <!-- Visual Studio Code -->
-  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
-  
-  <!-- JavaFX -->
-  <img src="https://img.shields.io/badge/JavaFX-FF7800?style=for-the-badge&logo=oracle&logoColor=white" />
-  
-  <!-- Figma -->
-  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
-  
-  <!-- Procreate -->
-  <img src="https://img.shields.io/badge/Procreate-000000?style=for-the-badge&logo=procreate&logoColor=white" />
-  
-  <!-- Pixel Studio -->
-  <img src="https://img.shields.io/badge/Pixel%20Art-31A8FF?style=for-the-badge&logo=pixelart&logoColor=white" />
-  
-  <!-- Draw.io -->
-  <img src="https://img.shields.io/badge/Draw.io-F08705?style=for-the-badge&logo=diagramsdotnet&logoColor=white" />
+  <img src="https://skillicons.dev/icons?i=java,vscode,figma&theme=dark" />
 </p>
+---
 
-
-#  Java Projects
+<h1 align="center">⊹₊⟡⋆ Java Projects ⊹₊⟡⋆</h1>
 
 A curated collection of my Java applications built throughout my **Object-Oriented Programming (OOP)** and **Advanced Programming** courses.  
 These projects explore Java fundamentals, GUI interfaces, JavaFX, event-driven logic, storytelling, and custom artwork integration.
@@ -38,7 +16,7 @@ All projects were created using **Java**, with development supported by **Apache
 
 ---
 
-## 📂 Projects Overview
+## Projects Overview
 
 ### 1. **ClimateEducationApp (OOP Project)**
 - **Language:** Java  
@@ -46,7 +24,7 @@ All projects were created using **Java**, with development supported by **Apache
 - **Description:**  
   An educational Java application designed to teach users about global warming, greenhouse gases, pollution, and environmental awareness.  
   Includes simple UI pages, navigation buttons, climate facts, and interactive elements.  
-- **Folder:** `OOP/ClimateEducationApp/`
+- **Folder:** [climate education app](/OOP/ClimateEducationApp/)
 
 ---
 
@@ -59,7 +37,7 @@ All projects were created using **Java**, with development supported by **Apache
   Players manage hunger, thirst, morale, and health while facing daily events and making choices that affect outcomes.  
   Includes login/register, storyline screens, shopping phase with a 60-second timer, journal decisions, day counter, win/defeat screens, and pixel-art visuals.  
   **All UI artwork (characters, backgrounds, icons) was hand-drawn by me.**  
-- **Folder:** `Advanced Programming/oneminute/`
+- **Folder:** [one minute](/AdvancedProgramming/oneminute/)
 
 ---
 
@@ -77,7 +55,7 @@ All projects were created using **Java**, with development supported by **Apache
 
 ---
 
-## 📌 About This Repository
+## About This Repository
 This repository showcases my growth in Java — progressing from foundational OOP concepts to full-scale GUI applications involving:
 
 - Object-oriented design  

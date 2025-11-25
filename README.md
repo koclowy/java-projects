@@ -38,7 +38,7 @@ All projects were created using **Java**, with development supported by **Apache
   Players manage hunger, thirst, morale, and health while facing daily events and making choices that affect outcomes.  
   Includes login/register, storyline screens, shopping phase with a 60-second timer, journal decisions, day counter, win/defeat screens, and pixel-art visuals.  
   **All UI artwork (characters, backgrounds, icons) was hand-drawn by me.**  
-- **Folder:** [one minute](/Advanced-Programming/oneminute/)
+- **Folder:** [one minute](Advanced Programming/oneminute/)
 
 ---
 

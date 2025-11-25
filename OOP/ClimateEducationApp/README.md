@@ -7,7 +7,7 @@ This project was built for my **Object-Oriented Programming (OOP)** module using
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 - To educate users about **global warming** and its environmental impact  
 - To explain **greenhouse gases** and how they contribute to climate change  
@@ -17,7 +17,7 @@ This project was built for my **Object-Oriented Programming (OOP)** module using
 
 ---
 
-## 🧰 Technologies & Tools
+## Technologies & Tools
 
 ### **Language**
 - Java (JDK)
@@ -29,7 +29,7 @@ This project was built for my **Object-Oriented Programming (OOP)** module using
 
 ---
 
-## 🗂 File Structure
+## File Structure
 
 ```plaintext
 ClimateEducationApp/
@@ -42,7 +42,7 @@ ClimateEducationApp/
 ```
 ---
 
-## 🧠 What I Learned
+## What I Learned
 
 Through this project, I learned:
 - The fundamentals of object-oriented programming in Java
@@ -54,7 +54,7 @@ Through this project, I learned:
 
 ---
 
-## 🌱 Future Enhancements
+## Future Enhancements
 
 Planned improvements include:
 - Updating the application UI for a more modern feel

@@ -1,3 +1,34 @@
+<p align="center">
+  <img src="/assets/banner.png" alt="Java Projects Banner" width="100%">
+</p>
+
+<p align="center">
+  <!-- Java -->
+  <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white" />
+  
+  <!-- Apache NetBeans -->
+  <img src="https://img.shields.io/badge/Apache%20NetBeans-1B6AC6?style=for-the-badge&logo=apache-netbeans-ide&logoColor=white" />
+  
+  <!-- Visual Studio Code -->
+  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
+  
+  <!-- JavaFX -->
+  <img src="https://img.shields.io/badge/JavaFX-FF7800?style=for-the-badge&logo=oracle&logoColor=white" />
+  
+  <!-- Figma -->
+  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
+  
+  <!-- Procreate -->
+  <img src="https://img.shields.io/badge/Procreate-000000?style=for-the-badge&logo=procreate&logoColor=white" />
+  
+  <!-- Pixel Studio -->
+  <img src="https://img.shields.io/badge/Pixel%20Art-31A8FF?style=for-the-badge&logo=pixelart&logoColor=white" />
+  
+  <!-- Draw.io -->
+  <img src="https://img.shields.io/badge/Draw.io-F08705?style=for-the-badge&logo=diagramsdotnet&logoColor=white" />
+</p>
+
+
 #  Java Projects
 
 A curated collection of my Java applications built throughout my **Object-Oriented Programming (OOP)** and **Advanced Programming** courses.  

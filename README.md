@@ -17,7 +17,7 @@ All projects were created using **Java**, with development supported by **Apache
 
 ---
 
-## Projects Overview
+## ⊹₊⟡⋆ Projects Overview
 
 ### 1. **ClimateEducationApp (OOP Project)**
 - **Language:** Java  
@@ -42,7 +42,7 @@ All projects were created using **Java**, with development supported by **Apache
 
 ---
 
-## Technologies Used
+## ⊹₊⟡⋆ Technologies Used
 - **Java (JDK)**  
 - **JavaFX + FXML**  
 - **Apache NetBeans**  
@@ -56,7 +56,7 @@ All projects were created using **Java**, with development supported by **Apache
 
 ---
 
-## About This Repository
+## ⊹₊⟡⋆ About This Repository
 This repository showcases my growth in Java — progressing from foundational OOP concepts to full-scale GUI applications involving:
 
 - Object-oriented design  

@@ -42,7 +42,7 @@ All projects were created using **Java**, with development supported by **Apache
 
 ---
 
-## 🛠 Technologies Used
+## Technologies Used
 - **Java (JDK)**  
 - **JavaFX + FXML**  
 - **Apache NetBeans**  

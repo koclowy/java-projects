@@ -5,11 +5,11 @@ Every decision impacts the family’s **hunger**, **thirst**, **morale**, and **
 Players shop for supplies, manage daily events, make journal choices, survive random challenges, and aim to reach Day 30.
 
 A key highlight of this project:  
-### 🎨 **All artworks (characters, backgrounds, UI, icons) were hand-drawn by me using Procreate and Pixel Studio.**
+### **All artworks (characters, backgrounds, UI, icons) were hand-drawn by me using Procreate and Pixel Studio.**
 
 ---
 
-## 🎯 Objectives  
+## Objectives  
 
 - Create an interactive survival game using JavaFX and OOP concepts  
 - Implement multi-screen navigation (Login → Storyline → Shopping → Cashier → Day Counter → Home → Journal → Win/Defeat)  
@@ -21,7 +21,7 @@ A key highlight of this project:
 
 ---
 
-## 🧰 Tools & Technologies
+## Tools & Technologies
 
 ### **Language**
 - Java
@@ -43,36 +43,36 @@ A key highlight of this project:
 
 ---
 
-## 🖥 Gameplay Overview  
+## Gameplay Overview  
 
-### 🧾 Login & User System
+### Login & User System
 - Login, Register, Reset Password  
 - Password validation & error alerts  
 - Data stored in encrypted local files  
 
-### 📖 Storyline Screens
+### Storyline Screens
 - Intro story fades in gradually  
 - Animated transition buttons  
 - Setup for the 30-day survival challenge  
 
-### 🛒 60-Second Shopping Phase
+### 60-Second Shopping Phase
 - Player selects items from shelves  
 - Items include water, canned food, medicine, bug spray, etc.  
 - Time pressure: 60-second timer  
 - Tooltip descriptions for each item  
 
-### 💵 Cashier Review
+### Cashier Review
 - Player reviews selected items before starting lockdown  
 
-### 📅 Day Counter (Day 1–30)
+### Day Counter (Day 1–30)
 - “Next Day” logic with updated hunger/thirst/morale  
 - Scenes transition using JavaFX animations  
 
-### 🏠 Home Screen
+### Home Screen
 - Access Journal Story and Journal Status  
 - Pause game (Continue / Save / Quit)  
 
-### 📘 Journal Decisions (Daily Events)
+### Journal Decisions (Daily Events)
 Based on pages 17–22 (Yes/No choices).  
 Each day includes:
 
@@ -82,13 +82,13 @@ Each day includes:
 - Effects displayed in the journal text area  
 - Move to next day  
 
-### 🏆 Win / ❌ Defeat Conditions
+### Win / Defeat Conditions
 - **Win:** Survive all 30 days :contentReference[oaicite:5]{index=5}  
 - **Lose:** Health/morale/hunger/thirst reaches 0, or 2 family members die  
 
 ---
 
-## 📂 File Structure
+## File Structure
 
 ```plaintext
 Advanced Programming/oneminute/
@@ -100,7 +100,7 @@ Advanced Programming/oneminute/
 └── README.md                 # Project documentation
 ```
 ---
-🧠 What I Learned
+## What I Learned
 
 Through this project, I gained hands-on experience in:
 
@@ -118,7 +118,7 @@ Through this project, I gained hands-on experience in:
 
 ---
 
-🌱 Future Enhancements
+## Future Enhancements
 
 - Add settings menu (audio, graphics, controls, language)
 - Expand lockdown duration from 14 days → full 30 days

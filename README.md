@@ -1,4 +1,4 @@
-# ☕ Java Projects
+#  Java Projects
 
 A curated collection of my Java applications built throughout my **Object-Oriented Programming (OOP)** and **Advanced Programming** courses.  
 These projects explore Java fundamentals, GUI interfaces, JavaFX, event-driven logic, storytelling, and custom artwork integration.
